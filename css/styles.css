@@ -1,0 +1,183 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: deeppink;
+	font-family: tahoma;
+}
+
+/** HEADER **/
+#header-nav{
+	background-color: pink;
+	border-radius: 0;
+	border: 0;
+}
+#logo-img{
+	width: auto;
+	height:auto;
+	margin: 10px 15px 10px 0;
+}
+.navbar-brand{
+	padding-top: 55px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Advertising Script', serif;
+  color: black;
+  font-size: 1.8em;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 1px hotpink;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0;
+  line-height: .65;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+   text-shadow: 1px 1px 1px hotpink;
+}
+#nav-list a:hover {
+  background: deeppink;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* ...essence of beauty */
+  color: red;
+  font-family: Vivaldi;
+  text-align: right;
+  padding-right: 25px;
+  font-size: 1.5em;
+  margin-top: -10px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid darkred;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+/** HEADER END **/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    width: 80px;
+    height: 90px;
+    margin: 5px 5px 5px 0;
+  }
+
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  .navbar-brand h1 { /* Business name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1em;
+    margin-top: 1px;
+    display: block;
+    margin: 0 5px;
+    padding: 5px;
+    border: 2px solid #fff;
+    background-color: pink;
+    color: maroon;
+  }
+  #xs-essence {
+    margin-top: 1px;
+    font-family: vivaldi;
+    font-size: 1em;
+    letter-spacing: .1em;
+    text-transform: lowercase;
+  }
+  /* End Header */
+
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+* {
+  box-sizing: border-box;
+}
+body, figure { 
+  margin: 0; background: auto;
+  font-family: Istok Web, sans-serif;
+  font-weight: 100;
+}
+div#captioned-gallery { 
+  width: 100%; overflow: hidden; 
+ margin-top: -5px;
+}
+figure.slider { 
+  position: relative; width: 500%;
+  font-size: 0; animation: 30s slidy infinite; 
+}
+figure.slider figure { 
+  width: 20%; height: auto;
+  display: inline-block;  position: inherit; 
+  margin-top: 2px;
+}
+figure.slider img { width: 100%; height: auto; }
+figure.slider figure figcaption { 
+  position: absolute; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  color: #fff; width: 100%;
+  font-size: 2rem; padding: .6rem; 
+} 
