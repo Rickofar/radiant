@@ -141,7 +141,7 @@ body{
   /* End Header */
 
 }
-
+/** HOME PAGE **/
 @keyframes slidy {
 0% { left: 0%; }
 20% { left: 0%; }
@@ -182,3 +182,37 @@ figure.slider figure figcaption {
   color: #fff; width: 100%;
   font-size: 2rem; padding: .6rem; 
 } 
+
+#home-tile, #service-tile, #map-tile {
+  height: 250px;
+  width: 80%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#home-tile:hover, #service-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#home-tile {
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
+}
+#service-tile {
+  background: url('../images/specials-tile.jpg') no-repeat;
+  background-position: center;
+}
+
+#home-tile span, #service-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
