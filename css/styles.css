@@ -158,13 +158,14 @@ body{
 }
 body, figure { 
   margin: 0; background: auto;
-  font-family: Istok Web, sans-serif;
+  font-family: times, sans-serif;
   font-weight: 100;
 }
 div#captioned-gallery { 
   width: 100%; overflow: hidden; 
  margin-top: -5px;
 }
+
 figure.slider { 
   position: relative; width: 500%;
   font-size: 0; animation: 30s slidy infinite; 
