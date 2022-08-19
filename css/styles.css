@@ -284,9 +284,7 @@ figure.slider figure figcaption {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  .captioned-gallery .slider {
-  height: 675px;
-  }
+
 }
 
 /********** Medium devices only **********/
