@@ -21,7 +21,7 @@ body{
 }
 
 .navbar-brand h1 { /* Business name */
-  font-family: 'Advertising Script', serif;
+  font-family: Tahoma;
   color: black;
   font-size: 1.8em;
   text-transform: capitalize;
@@ -49,7 +49,7 @@ body{
 }
 #nav-list a span {
   font-size: 1.8em;
-}
+} 
 
 #phone {
   margin-top: 5px;
@@ -60,11 +60,11 @@ body{
 }
 #phone div { /* ...essence of beauty */
   color: red;
-  font-family: Vivaldi;
+  font-family: tahoma;
   text-align: right;
   padding-right: 25px;
-  font-size: 1.5em;
-  margin-top: -10px;
+  font-size: 1em;
+  margin-top: 0px;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -350,7 +350,7 @@ figure.slider figure figcaption {
     margin-top: 2px;
     font-size: 1em;
     letter-spacing: .1em;
-    font-family: vivaldi;
+    font-family: tahoma;
     text-transform: lowercase;
   }
   /* End Header */
