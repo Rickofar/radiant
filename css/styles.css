@@ -194,6 +194,13 @@ h3.category-item-title {
 /* END FOOTER */
 
 /** HOME PAGE **/
+
+.carousel-control.left, .carousel-control.right{
+  background-image: none;
+  filter: none;
+}
+
+
 .glyphicon.glyphicon-chevron-left, .glyphicon.glyphicon-chevron-right{
   margin-top: -385px;
 }
