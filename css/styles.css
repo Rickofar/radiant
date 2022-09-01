@@ -198,15 +198,18 @@ h3.category-item-title {
 .carousel-control.left, .carousel-control.right{
   background-image: none;
   filter: none;
+  -webkit-display: ;
 }
 
 
 .glyphicon.glyphicon-chevron-left, .glyphicon.glyphicon-chevron-right{
   margin-top: -385px;
+  -webkit-display: ;
 }
 
 #slider-img {
   width: 1140px;
+  -webkit-display: ;
 }
 
 figcaption {
@@ -216,10 +219,12 @@ figcaption {
   text-align: center;
   color: black;
   margin-bottom: 10px;
+   -webkit-display: ;
 }
 
 .item a{
   text-decoration: none;
+   -webkit-display: ;
 }
 
 #product-tile, #service-tile, #map-tile {
