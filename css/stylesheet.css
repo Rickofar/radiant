@@ -97,6 +97,8 @@ form.example input[type="text"] {
 
 figcaption {
   background-color: #e58593;
+  font-size: 20px;
+  font-weight: bold;
   margin-top: -25px;
   opacity: 70%;
   text-align: center;
