@@ -1,0 +1,211 @@
+body{
+	background-color: pink;
+	font-family: tahoma;
+}
+
+/** search field **/
+form.example input[type="text"] {
+  padding: 5px;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-radius: 60px;
+  float: left;
+  width: 115%;
+  background: #fff;
+  margin-top: 10px;
+}
+
+#button-icon {
+  margin-top: 15px;
+  margin-left: -35px;
+  border-radius: 60px;
+}
+
+/** search field **/
+
+/** header properties **/
+.navbar.navbar-default{
+	background-color: black;
+	border: none;
+}
+
+#brand-logo img{
+	height: 80px;
+	width: auto;
+}
+
+#nav-list {
+  position: relative;
+  left: 25%;
+  transform: translatex(-30%);
+}
+
+#nav-list a{
+	color: grey;
+  -webkit-transition: 1.2s ease-in-out color;
+  -moz-transition: 1.2s ease-in-out color;
+  -o-transition: 1.2s ease-in-out color;
+}
+
+#nav-list a:hover{
+	background-color: transparent;
+	color: white;
+  padding: 20px;
+}
+
+.nav li {
+  position: relative;
+  display: block;
+  padding-inline: 20px;
+}
+
+
+
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+
+#phone div { /* ...essence of beauty */
+  color: white;
+  text-align: right;
+  font-style: italic;
+  font-size: 1em;
+  margin-top: -5px;
+}
+
+/** end of header properties **/
+
+/** home page properties **/
+
+.carousel-control.left, .carousel-control.right{
+  background-image: none;
+  filter: none;
+  -webkit-display: ;
+}
+
+
+.glyphicon.glyphicon-chevron-left, .glyphicon.glyphicon-chevron-right{
+  /*margin-top: -385px;*/
+  -webkit-display: ;
+}
+
+#slider-img {
+  width: 1140px;
+  -webkit-display: ;
+}
+
+figcaption {
+  background-color: #e58593;
+  margin-top: -25px;
+  opacity: 70%;
+  text-align: center;
+  color: black;
+  margin-bottom: 10px;
+   -webkit-display: ;
+}
+
+.item a{
+  text-decoration: none;
+   -webkit-display: ;
+}
+
+#business-slogan h1{
+  color: black;
+  font-style: italic;
+  text-align: center;
+  /*font-size: 50px;*/
+}
+
+#menu-tile, #service-tile, #map-tile {
+  height: 280px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #751c1c;
+  overflow: hidden;
+  vertical-align: center;
+  -webkit-transition: 1.2s ease-in-out color;
+  -moz-transition: 1.2s ease-in-out color;
+  -o-transition: 1.2s ease-in-out color;  
+}
+#menu-tile:hover, #service-tile:hover, #map-tile:hover {
+  box-shadow: 0 2px 5px 1px #cccccc;
+    height: 300px;
+  width: 100%;
+  /*padding: 4px 10px;*/
+}
+
+#menu-tile {
+  background-position: center;
+}
+#service-tile {
+  background-position: center;
+}
+
+#menu-tile span, #service-tile span, #map-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  font-family: tahoma;
+  text-align: center;
+  font-size: 1em;
+  text-transform: capitalize;
+  background-color: #2c1d18;
+  color: #fff;
+  opacity: .8;
+}
+
+
+/* FOOTER */
+.panel-footer {
+  color: white;
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: black;
+  border-top: 0;
+  font-family: tahoma;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 1.5;
+}
+#hours > span, #address > span {
+  font-size: 1.2em;
+}
+#address p {
+  color: white;
+  font-size: .8em;
+  line-height: 1.5;
+}
+#testimonials {
+  font-size: .7em;
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+
+.panel-footer .text-center {
+  font-size: 12px;
+}
+
+.panel-footer img{
+  margin-top: 10px;
+  width: 25px;
+  -webkit-transition: 1.2s ease-in-out  all;
+  -moz-transition: 1.2s ease-in-out  all;
+  -o-transition: 1.2s ease-in-out  all;
+}
+
+.panel-footer img:hover{
+  width: 50px;
+  padding-inline: 5px;
+}
+
+/* END FOOTER */
