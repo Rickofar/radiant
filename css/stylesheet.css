@@ -92,7 +92,11 @@ form.example input[type="text"] {
 
 #slider-img {
   width: 1140px;
-  -webkit-display: ;
+}
+
+#img-text{
+  text-align: center;
+  font-weight: bold;
 }
 
 figcaption {
